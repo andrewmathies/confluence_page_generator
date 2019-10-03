@@ -22,7 +22,7 @@ This project creates lots of Confluence pages at once. It takes as input a docum
 1. Enter the file name for the xml file you saved previously.
 
 ## Deleting pages
-**WARNING** delete_descendants.py will delete all of the descendants of a page on Confluence. That means all of the children pages and all of those childrens children pages etc. If you enter the wrong ID you can permenantly delete LOTS of Confluence pages. I'm not sure if pages deleted this way can be recovered, and I'm not responsible from any pages you accidentally delete this way.
+**WARNING** delete_descendants.py will delete all of the descendants of a page on Confluence. That means all of the children pages and all of those childrens children pages etc. If you enter the wrong ID you can permenantly delete LOTS of Confluence pages. I'm not sure if pages deleted this way can be recovered, and I'm not responsible for any pages you accidentally delete this way.
 
 1. In a terminal, run ```python delete_descendants.py```
 1. Enter the email your Confluence account uses. Presumably this is your GE email.
